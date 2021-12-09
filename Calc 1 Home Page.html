@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <!--style sheet-->
+    <style>
+        h1 {
+            text-align:center; 
+            font-size:24pt;
+        }
+        body {
+            text-align: "center";
+            margin-left: auto;
+            margin-right: auto;
+            background-color:blue;
+            color: white;
+            letter-spacing: 1px;
+        }
+        nav {
+            text-align: center;
+        }
+        .left {
+            width:19.5%;
+            float:left;
+            border: 1px solid black;
+            height: 100%;
+            text-align: center;
+            background-color: darkblue;
+        }
+        .right {
+            width:80%;
+            float:right; 
+            border: 1px solid black;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+        }
+        a:link {
+            text-decoration: none;
+            color: white;
+        }
+        a:visited {
+            color:orange
+        }
+        a:hover {
+            color:red
+        }
+        #container {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 2%;
+        }
+        h1 {
+            border: 2px solid black;
+            border-radius:25px;
+            background-color: darkblue;
+        }
+        .row::after{
+            content:none;
+            display: table;
+            clear: both;
+        }
+        
+        .navbar {
+                overflow: hidden;
+                background-color: darkblue;
+                font-family: Arial;
+                font-size: 16px;
+            }
+
+        .navbar a {
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+        .dropdown {
+                float: left;
+                overflow: hidden;
+            }
+
+        .dropdown .dropbtn {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit; 
+                margin: 0; 
+            }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+                background-color:blue;
+            }
+
+        .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+        .dropdown-content a {
+                float:none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display:block;
+                text-align: left;
+            }
+
+        .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+
+        .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+        button {
+            overflow: hidden;
+            background-color: #333;
+            font-family: Arial;
+        }
+    </style>
+    <!--end of style sheet-->
+    <head>
+        <!--Title and meta-->
+        <title>Calculus 1 Derivative Tutoring</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Derivative Tutoring">
+        <meta name="keywords" content="Derivatives, Chain rule, product rule, Quotient rule, Trigonometry">
+        <meta name="Brandon Krueger, Gino Torres">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c0589e497d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="container">
+        <main>
+            <!--Start of Content-->
+            <div class="title">
+                <h1>Torres and Krueger Tutoring&nbsp;&nbsp;<a href="Calc 1 Home Page.html"><img src="Calc 1 Icon.png" height="40px" width="40px" class="icon"></a></h1>
+            </div>
+        <!--Navigation-->
+        <div class="navbar">
+            <a href="Calc 1 Home Page.html" style="padding: 30px;">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="Calc 1 Home Page.html">Derivatives</a> 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="Geno Log.html">Logarithmic Derivatives</a>
+                <a href="Geno Product.html">Product Rule</a>
+                <a href="Geno Quotient.html">Quotient Rule</a>
+                <a href="Calc 1 Trig.html">Trigonometry</a>
+                <a href="Calc 1 Trig Inverse.html">Inverse Trigonometry</a>
+                <a href="Calc 1 ln.html">Natural Logarithms</a>
+                <a href="Calc 1 Chain Rule.html">Chain Rule</a>
+            </div> 
+            </div>
+            <a href="Calc 1 Contact Page.html" style="padding: 30px;">Contact</a> 
+        </div>
+        <!--End of Navigation-->
+        <br>
+        <!--Left Column-->
+        <div class="left">
+            <h3>Other useful resources</h3>
+                <a href="https://www.khanacademy.org/math/differential-calculus/dc-diff-intro">Khan Academy</a> <br>
+                <br>
+                <a href="https://www.derivative-calculator.net/">Derivative Calculator</a> <br>
+                <br>
+                <a href="https://www.youtube.com/watch?v=HfACrKJ_Y2w&t=1758s">Calculus 1 review video<a> <br>
+                <br>
+                <a href="https://www.khanacademy.org/math/in-in-grade-12-ncert/xd340c21e718214c5:continuity-differentiability/xd340c21e718214c5:review-differentiation-basics/e/derivatives-basics-challenge">Other practice problems!</a> <br>
+                <br>
+                <a href="https://www.desmos.com/calculator">Graphing calculator</a> <br>
+                <h3>Relaxing music and ambience</h3>
+                <a href="https://www.youtube.com/watch?v=5qap5aO4i9A">Lofi</a> <br>
+                <br>
+                <a href="https://www.youtube.com/watch?v=VB6SIKl8Md0">Classical</a> <br>
+                <br>
+                <a href="https://www.youtube.com/watch?v=c0_ejQQcrwI">Coffee Shop</a> <br>
+                <br>
+                <a href="https://www.youtube.com/watch?v=Nep1qytq9JM">Tropical island</a>
+        </div>
+        <!--Right Column-->
+        <div class="right">
+            <h2>About Us!</h2>
+            <p>This website was designed by Gino Torres and Brandon Krueger to help students who are struggling with derivatives. Being calculus students ourselves we understand how frustrating derivatives can be, so we developed this website to give you some helpful guides! Over the course of the semester we have both been exposed to a plethora of derivatives in our calculus 1 class, whether it is a simple product rule problem or a complex inverse trigonometry problem we have seen it all! We feel that our experience with these problems has given us the knowlegde to teach others how to do them, and as a result we want to make sure all students never have to struggle with another derivative.</p>
+            <h2>What is on each lesson?</h2>
+            <p>In each lesson you will find the rule of the derivative, and then an example problem going over the derivative in detail. Our lessons inclide a wide variety of derivatives from the simple product rule, all the way to complex inverse trigonomery!</p>
+            <h2>What is calculus 1?</h2>
+            <p>This course introduces the basic concepts and operations of calculus. The prerequisite is MATH 105 
+                (with a grade C or better) or a passing score on the "B" math placement exam. Students will learn 
+                basic skills and computations of the limit process, differentiation and integration process of different 
+                functions. This course is a flex class, which means everyone is also enrolled 
+                in the computer science course, Publishing on the Web I. We would like to create an environment for 
+                open and honest dialogue, student learning, and connection and create a sense of belonging. This course 
+                is a preparation course for high-level mathematics courses and science courses.</p>
+            <h2>Who taught us derivatives?</h2>
+            <p>Our calculus teacher is Xiaoyan Liu, a distinguished math professor at the University of La Verne who has taught calculus for many years!</p>
+            <a href="Calc 1 Home Page.html"><img src="https://lvcampustimes.org/wp-content/uploads/2017/09/170904_0498_CT_CHM-368x500.jpg" width="300px" height="400px"></a>
+            <br>
+        </div>
+        <div style="clear: both;"></div>
+        </main>
+    </body>
+    <!--copyright and bottom nav-->
+    <footer>
+        <nav>
+            <a href="Calc 1 Home Page.html">Home</a> &nbsp; <a href="https://www.desmos.com/calculator">Graphing Calculator</a> &nbsp; <a href="Calc 1 Contact Page.html" style="color:orange">Contact</a>
+        </nav>
+        <hr>
+        <p style="text-align: center;"><small><i>Copyright &copy; 2021 <a href="mailto:gino.torres@laverne.edu">Gino Torres</a> <a href="mailto:brandon.krueger@laverne.edu">Brandon Krueger</a></i></p></small>
+    </footer>
+    </div>
+</html>
